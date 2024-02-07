@@ -18,4 +18,7 @@
 #include "test.config"
 #include "network.config"
 #include "bt.config"
-BR2_PACKAGE_RKWIFIBT_BTUART="ttyS0"
+BR2_PACKAGE_DHCP=y
+BR2_PACKAGE_DHCP_CLIENT=y
+BR2_PACKAGE_HOSTAPD_WPS=y
+BR2_PACKAGE_HOSTAPD_WPA3=y
